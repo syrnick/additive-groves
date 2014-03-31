@@ -1,0 +1,17 @@
+/AdditiveGroves/*.o
+/shared/*.o
+
+/win/Release/*.exe
+/linux/*
+
+ThreadPool/thread_pool.o
+
+AdditiveGroves/ag_addbag
+AdditiveGroves/ag_expand
+AdditiveGroves/ag_fs
+AdditiveGroves/ag_interactions
+AdditiveGroves/ag_merge
+AdditiveGroves/ag_nway
+AdditiveGroves/ag_predict
+AdditiveGroves/ag_save
+AdditiveGroves/ag_train
