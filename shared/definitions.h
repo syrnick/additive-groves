@@ -15,6 +15,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+#include <iostream>
+
 using namespace std;
 
 typedef set<int> intset;
@@ -45,7 +47,7 @@ typedef vector<idpair> idpairv;
 typedef vector<ddpair> ddpairv;
 typedef vector<dipairv> dipairvv;
 typedef vector<fipairv> fipairvv;
-typedef vector<bbpair> bbpairv; 
+typedef vector<bbpair> bbpairv;
 
 typedef numeric_limits<float> flim;
 
@@ -86,7 +88,7 @@ enum TE_ERROR
 	ROC_FLAT_ERR = 26
 };
 
-//this enum has to be in the general definition file, because it is a part of a model file, and all model 
+//this enum has to be in the general definition file, because it is a part of a model file, and all model
 //files should be compatible
 enum AG_TRAIN_MODE
 {
